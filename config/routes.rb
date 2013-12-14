@@ -1,4 +1,5 @@
 Crumblr::Application.routes.draw do
+  get "demo/index"
   resources :posts
   resources :hearts
 
